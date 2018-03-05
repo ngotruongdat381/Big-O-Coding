@@ -12,6 +12,7 @@ void main()
 	int index_left, index_right;
 
 	cin >> n;
+	//Input and find min and max of array
 	for (int i = 0; i < n; i++)
 	{
 		int number;
@@ -23,6 +24,7 @@ void main()
 			index_min = i;
 	}
 
+	//Find between index of min and index of max, which one is in the left, which.
 	if (index_min < index_max)
 	{
 		index_left = index_min;
@@ -34,6 +36,7 @@ void main()
 		index_right = index_min;
 	}
 
+	//compare between the distance from begining to the left position and the one from the right position to ending
 	if (index_left > n - 1 - index_right)
 		cout << index_right;
 	else

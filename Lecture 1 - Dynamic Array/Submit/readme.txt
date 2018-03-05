@@ -1,0 +1,1 @@
+I did commented inside coding files. Hope that it can helps you guys to get my ideas. Thanks ^^ 

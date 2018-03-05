@@ -28,6 +28,7 @@ void main()
 		B.push_back(b);
 	}
 
+	//compare the biggest number from k numbers of A and the smallest number from m numbers of B
 	if (A[k - 1] < B[nB - m])
 		cout << "YES";
 	else
