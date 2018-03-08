@@ -1,0 +1,2 @@
+C++: http://www.fredosaurus.com/notes-cpp/algorithms/sorting/stl-sort-arrays.html
+Python: https://wiki.python.org/moin/HowTo/Sorting
