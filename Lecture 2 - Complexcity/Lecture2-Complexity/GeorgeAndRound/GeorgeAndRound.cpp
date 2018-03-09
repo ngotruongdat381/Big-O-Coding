@@ -49,7 +49,7 @@ int main()
 			while (ib <= m)
 			{
 				ib++;
-				if (b[ib] > a[ia])	//b[ib] != 0 && 
+				if (b[ib] > a[ia])
 				{
 					c[a[ia]] = 0;
 					break;
@@ -57,27 +57,6 @@ int main()
 			}
 		}
 	}
-
-	//int ia = 1, ib = 0;
-
-	//while (ia <= n && ib <= m)
-	//{
-	//	//ia++;
-	//	if (c[a[ia]] == 1)
-	//	{
-	//		ib++;
-
-	//		if (b[ib] != 0)
-	//		{
-	//			if (b[ib] > a[ia])
-	//				c[a[ia]] = 0;
-	//			else
-	//				continue;
-	//				//ib++;
-	//		}
-	//	}
-	//	ia++;
-	//}
 
 
 	int sum = 0;
