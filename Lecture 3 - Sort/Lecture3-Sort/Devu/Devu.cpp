@@ -6,12 +6,12 @@ using namespace std;
 
 
 #define maxn 1111111
-int c[maxn];
+long long c[maxn];
 
 
 int main()
 {
-	freopen("INPUT.INP", "rt", stdin);
+	//freopen("INPUT.INP", "rt", stdin);
 	int n, x;
 	cin >> n >> x;
 
@@ -22,7 +22,7 @@ int main()
 
 	sort(c, c + n);
 
-	int ans = 0;
+	long long ans = 0;
 	int learn_time = 1;
 	for (int i = 0; i < n; i++)
 	{
@@ -35,6 +35,6 @@ int main()
 
 	cout << ans;
 
-	cin >> n;
+	//cin >> n;
 	return 0;
 }
