@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chores", "Lecture3-Sort\Lec
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SortTheArray", "SortTheArray\SortTheArray.vcxproj", "{F6B47522-5276-49EF-99E8-E47C7D66F64D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PashaAndTea", "PashaAndTea\PashaAndTea.vcxproj", "{FD22A51D-7536-47D9-9948-C07A7F8C0237}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Devu", "Devu\Devu.vcxproj", "{6DC2BCA7-1D79-4F04-9CF9-60B38B7C93A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -21,6 +25,14 @@ Global
 		{F6B47522-5276-49EF-99E8-E47C7D66F64D}.Debug|Win32.Build.0 = Debug|Win32
 		{F6B47522-5276-49EF-99E8-E47C7D66F64D}.Release|Win32.ActiveCfg = Release|Win32
 		{F6B47522-5276-49EF-99E8-E47C7D66F64D}.Release|Win32.Build.0 = Release|Win32
+		{FD22A51D-7536-47D9-9948-C07A7F8C0237}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FD22A51D-7536-47D9-9948-C07A7F8C0237}.Debug|Win32.Build.0 = Debug|Win32
+		{FD22A51D-7536-47D9-9948-C07A7F8C0237}.Release|Win32.ActiveCfg = Release|Win32
+		{FD22A51D-7536-47D9-9948-C07A7F8C0237}.Release|Win32.Build.0 = Release|Win32
+		{6DC2BCA7-1D79-4F04-9CF9-60B38B7C93A6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6DC2BCA7-1D79-4F04-9CF9-60B38B7C93A6}.Debug|Win32.Build.0 = Debug|Win32
+		{6DC2BCA7-1D79-4F04-9CF9-60B38B7C93A6}.Release|Win32.ActiveCfg = Release|Win32
+		{6DC2BCA7-1D79-4F04-9CF9-60B38B7C93A6}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
