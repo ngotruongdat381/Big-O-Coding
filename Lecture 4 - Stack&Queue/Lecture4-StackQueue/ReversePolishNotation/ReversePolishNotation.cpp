@@ -27,18 +27,28 @@ int main()
 			{
 				cout << expression[k];
 			}
-			else if (isdigit(expression[i]))
+			else if (!isdigit(expression[i]))
 			{
-				opt.push(expression[i]);
+				opt.push(expression[k]);
 			}
-
-			if (opt.top() == ")")
+			
+			if (opt.top() == ')')
 			{
+				opt.pop();
 
+				while (true)
+				{
+					if (opt.top() == '(')
+					{
+						opt.pop();
+						break;
+					}
+					cout << opt.top();
+					opt.pop();
+				}
 			}
-
-
 		}
+		cout << endl;
 	}
 
 	return 0;
