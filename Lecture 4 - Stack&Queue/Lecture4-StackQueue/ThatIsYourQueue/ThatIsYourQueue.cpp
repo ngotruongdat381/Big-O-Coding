@@ -9,21 +9,6 @@ using namespace std;
 #define maxn 99999999
 int cnt[maxn], ok[maxn];
 
-//bool checkExpedited(vector<int> &e, int num)
-//{
-//	bool erased = false;
-//	for (int k = 0; k < e.size(); k++)
-//	{
-//		if (e[k] == num)
-//		{
-//			e.erase(e.begin() + k);
-//			erased = true;
-//		}
-//	}
-//
-//	return erased;
-//}
-
 int main()
 {
 	freopen("INPUT.INP", "rt", stdin);
@@ -44,7 +29,6 @@ int main()
 
 		char command;
 		deque<int> citizens;
-		//vector<int> e;
 
 		for (int i = 1; i <= p; i++)
 		{
@@ -71,7 +55,6 @@ int main()
 				citizens.push_back(citizens.front());
 				citizens.pop_front();
 				ok[front] = false;
-				//cnt[front] = max(0, cnt[front] - 1);
 			}
 
 			if (command == 'E')

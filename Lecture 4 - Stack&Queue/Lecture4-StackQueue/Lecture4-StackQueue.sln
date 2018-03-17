@@ -9,6 +9,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ThrowingCardsAway", "Throwi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReversePolishNotation", "ReversePolishNotation\ReversePolishNotation.vcxproj", "{F54199CF-3DAA-4BCA-B3B8-55A8F31D17C5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ThatIsYourQueue", "ThatIsYourQueue\ThatIsYourQueue.vcxproj", "{7985FE4E-817D-4C47-A0E3-955DB5F07981}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MassMolecule", "MassMolecule\MassMolecule.vcxproj", "{FB8DB00D-004D-4D17-BB5C-FCD424D45EA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -27,6 +31,14 @@ Global
 		{F54199CF-3DAA-4BCA-B3B8-55A8F31D17C5}.Debug|Win32.Build.0 = Debug|Win32
 		{F54199CF-3DAA-4BCA-B3B8-55A8F31D17C5}.Release|Win32.ActiveCfg = Release|Win32
 		{F54199CF-3DAA-4BCA-B3B8-55A8F31D17C5}.Release|Win32.Build.0 = Release|Win32
+		{7985FE4E-817D-4C47-A0E3-955DB5F07981}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7985FE4E-817D-4C47-A0E3-955DB5F07981}.Debug|Win32.Build.0 = Debug|Win32
+		{7985FE4E-817D-4C47-A0E3-955DB5F07981}.Release|Win32.ActiveCfg = Release|Win32
+		{7985FE4E-817D-4C47-A0E3-955DB5F07981}.Release|Win32.Build.0 = Release|Win32
+		{FB8DB00D-004D-4D17-BB5C-FCD424D45EA2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FB8DB00D-004D-4D17-BB5C-FCD424D45EA2}.Debug|Win32.Build.0 = Debug|Win32
+		{FB8DB00D-004D-4D17-BB5C-FCD424D45EA2}.Release|Win32.ActiveCfg = Release|Win32
+		{FB8DB00D-004D-4D17-BB5C-FCD424D45EA2}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
