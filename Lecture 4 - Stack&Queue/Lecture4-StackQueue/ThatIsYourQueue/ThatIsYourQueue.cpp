@@ -30,7 +30,7 @@ int main()
 		char command;
 		deque<int> citizens;
 
-		for (int i = 1; i <= p; i++)
+		for (int i = 1; i <= min(p, c); i++)
 		{
 			citizens.push_back(i);
 		}

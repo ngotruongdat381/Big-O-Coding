@@ -21,7 +21,7 @@ int main()
 {
 	freopen("INPUT.INP", "rt", stdin);
 
-	string formula;
+	string formula; formula
 	stack<string> st;
 
 	getline(cin, formula);

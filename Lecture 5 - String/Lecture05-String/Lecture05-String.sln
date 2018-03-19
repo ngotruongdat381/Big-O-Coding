@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NightAtMuseum", "NightAtMuseum\NightAtMuseum.vcxproj", "{D30BFE5E-BFA2-4D77-97CF-411F3168E493}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VitalyAndStrings", "VitalyAndStrings\VitalyAndStrings.vcxproj", "{70D78DEB-6308-4B46-B9A3-0E31AB48A25C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D30BFE5E-BFA2-4D77-97CF-411F3168E493}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D30BFE5E-BFA2-4D77-97CF-411F3168E493}.Debug|Win32.Build.0 = Debug|Win32
+		{D30BFE5E-BFA2-4D77-97CF-411F3168E493}.Release|Win32.ActiveCfg = Release|Win32
+		{D30BFE5E-BFA2-4D77-97CF-411F3168E493}.Release|Win32.Build.0 = Release|Win32
+		{70D78DEB-6308-4B46-B9A3-0E31AB48A25C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{70D78DEB-6308-4B46-B9A3-0E31AB48A25C}.Debug|Win32.Build.0 = Debug|Win32
+		{70D78DEB-6308-4B46-B9A3-0E31AB48A25C}.Release|Win32.ActiveCfg = Release|Win32
+		{70D78DEB-6308-4B46-B9A3-0E31AB48A25C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
