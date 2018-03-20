@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NightAtMuseum", "NightAtMus
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VitalyAndStrings", "VitalyAndStrings\VitalyAndStrings.vcxproj", "{70D78DEB-6308-4B46-B9A3-0E31AB48A25C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AfricanCrossword", "AfricanCrossword\AfricanCrossword.vcxproj", "{41D54C44-92F8-4179-95BF-0446E95FFF04}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lecture", "Lecture\Lecture.vcxproj", "{5A9F18DA-B711-423F-B324-525F61412A8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -21,6 +25,14 @@ Global
 		{70D78DEB-6308-4B46-B9A3-0E31AB48A25C}.Debug|Win32.Build.0 = Debug|Win32
 		{70D78DEB-6308-4B46-B9A3-0E31AB48A25C}.Release|Win32.ActiveCfg = Release|Win32
 		{70D78DEB-6308-4B46-B9A3-0E31AB48A25C}.Release|Win32.Build.0 = Release|Win32
+		{41D54C44-92F8-4179-95BF-0446E95FFF04}.Debug|Win32.ActiveCfg = Debug|Win32
+		{41D54C44-92F8-4179-95BF-0446E95FFF04}.Debug|Win32.Build.0 = Debug|Win32
+		{41D54C44-92F8-4179-95BF-0446E95FFF04}.Release|Win32.ActiveCfg = Release|Win32
+		{41D54C44-92F8-4179-95BF-0446E95FFF04}.Release|Win32.Build.0 = Release|Win32
+		{5A9F18DA-B711-423F-B324-525F61412A8B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5A9F18DA-B711-423F-B324-525F61412A8B}.Debug|Win32.Build.0 = Debug|Win32
+		{5A9F18DA-B711-423F-B324-525F61412A8B}.Release|Win32.ActiveCfg = Release|Win32
+		{5A9F18DA-B711-423F-B324-525F61412A8B}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

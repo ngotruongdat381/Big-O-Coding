@@ -23,14 +23,40 @@ int main()
 		}
 	}
 
-	//Row
-
 	for (int i = 0; i < n; i++)
 	{
-		
+		for (int j = 0; j < m; j++)
+		{
+			//Row
+			for (int k = j + 1; k < m; k++)
+			{
+				if (table[i][k] == table[i][j])
+				{
+					okay[i][k] = -1;
+					okay[i][j] = -1;
+				}
+			}
+
+			//Column
+			for (int k = i + 1; k < n; k++)
+			{
+				if (table[k][j] == table[i][j])
+				{
+					okay[k][j] = -1;
+					okay[i][j] = -1;
+				}
+			}
+		}
 	}
-
-
+	
+	for (int i = 0; i < n; i++)
+	{
+		for (int j = 0; j < m; j++)
+		{
+			if (okay[i][j] != -1)
+				cout << table[i][j];
+		}
+	}
 
 	return 0;
 }
