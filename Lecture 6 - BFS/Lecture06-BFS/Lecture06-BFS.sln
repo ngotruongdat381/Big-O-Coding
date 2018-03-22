@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShortestReach", "ShortestReach\ShortestReach.vcxproj", "{1225FAF0-1348-4432-BC83-A980D06CE700}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MAKEMAZE", "MAKEMAZE\MAKEMAZE.vcxproj", "{3EAEE5EA-694B-4B07-8E85-516B504553C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1225FAF0-1348-4432-BC83-A980D06CE700}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1225FAF0-1348-4432-BC83-A980D06CE700}.Debug|Win32.Build.0 = Debug|Win32
+		{1225FAF0-1348-4432-BC83-A980D06CE700}.Release|Win32.ActiveCfg = Release|Win32
+		{1225FAF0-1348-4432-BC83-A980D06CE700}.Release|Win32.Build.0 = Release|Win32
+		{3EAEE5EA-694B-4B07-8E85-516B504553C6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3EAEE5EA-694B-4B07-8E85-516B504553C6}.Debug|Win32.Build.0 = Debug|Win32
+		{3EAEE5EA-694B-4B07-8E85-516B504553C6}.Release|Win32.ActiveCfg = Release|Win32
+		{3EAEE5EA-694B-4B07-8E85-516B504553C6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
