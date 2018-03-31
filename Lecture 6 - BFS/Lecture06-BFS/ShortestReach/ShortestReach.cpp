@@ -11,6 +11,7 @@ using namespace std;
 int V, E;
 bool visited[MAX];
 int path[MAX];
+int countStep[MAX];				//Extra counting stuff
 vector<int> graph[MAX];
 
 void clear(int v)
@@ -30,11 +31,13 @@ void BFS(int s)
 	{
 		visited[i] = false;
 		path[i] = -1;
+		countStep[i] = -1;
 	}
 
 	queue<int> q;
 	visited[s] = true;
 	q.push(s);
+	countStep[s] = 0;				
 
 	while (!q.empty())
 	{
@@ -48,6 +51,7 @@ void BFS(int s)
 				visited[v] = true;
 				q.push(v);
 				path[v] = u;
+				countStep[v] = countStep[u] + 1;
 			}
 		}
 	}
@@ -77,7 +81,8 @@ void shortestReach(int s)
 	{
 		if (s != i)
 		{
-			int step = steps(s, i);
+			//int step = steps(s, i);
+			int step = countStep[i];
 			if (step == -1)
 				cout << -1 << " ";
 			else

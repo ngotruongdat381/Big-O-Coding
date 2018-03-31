@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShortestReach", "ShortestRe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MAKEMAZE", "MAKEMAZE\MAKEMAZE.vcxproj", "{3EAEE5EA-694B-4B07-8E85-516B504553C6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dhoom4", "Dhoom4\Dhoom4.vcxproj", "{79740932-6D41-4A97-8585-D5483E1117D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -21,6 +23,10 @@ Global
 		{3EAEE5EA-694B-4B07-8E85-516B504553C6}.Debug|Win32.Build.0 = Debug|Win32
 		{3EAEE5EA-694B-4B07-8E85-516B504553C6}.Release|Win32.ActiveCfg = Release|Win32
 		{3EAEE5EA-694B-4B07-8E85-516B504553C6}.Release|Win32.Build.0 = Release|Win32
+		{79740932-6D41-4A97-8585-D5483E1117D9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{79740932-6D41-4A97-8585-D5483E1117D9}.Debug|Win32.Build.0 = Debug|Win32
+		{79740932-6D41-4A97-8585-D5483E1117D9}.Release|Win32.ActiveCfg = Release|Win32
+		{79740932-6D41-4A97-8585-D5483E1117D9}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
