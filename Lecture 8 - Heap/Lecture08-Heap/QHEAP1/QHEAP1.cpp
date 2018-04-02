@@ -7,6 +7,7 @@ using namespace std;
 
 
 priority_queue<long long, vector<long long>, greater<long long>> pq;
+priority_queue<long long, vector<long long>, greater<long long>> pq_remove;
 
 void pop(long long v)
 {
@@ -24,34 +25,15 @@ void pop(long long v)
 		pq.push(vec[i]);
 }
 
-void pop(long long v)
+void print()
 {
-	priority_queue<long long, vector<long long>, greater<long long>> tmp;;
-
-	while (v != pq.top())
+	while (!pq_remove.empty() && !pq.empty() && pq.top() == pq_remove.top())
 	{
-		tmp.push(pq.top());
 		pq.pop();
+		pq_remove.pop();
 	}
 
-	pq.pop();
-
-	if (pq.size() > tmp.size())
-	{
-		while (!tmp.empty())
-		{
-			pq.push(tmp.top());
-			tmp.pop();
-		}	
-	}
-	else
-	{
-		while (!pq.empty())
-		{
-			tmp.push(pq.top());
-			pq.pop();
-		}
-	}
+	cout << pq.top() << endl;
 }
 
 int main()
@@ -59,9 +41,6 @@ int main()
 	freopen("INPUT.INP", "rt", stdin);
 	int n;
 	cin >> n;
-
-	long long a, b, c = 0;
-
 
 	for (int i = 0; i < n; i++)
 	{
@@ -74,10 +53,11 @@ int main()
 		if (query == 1)
 			pq.push(v);
 		if (query == 2)
-			pop(v);
+			pq_remove.push(v);
 		if (query == 3)
-			cout << pq.top() << endl;
-		
+		{
+			print();
+		}
 	}
 
 	return 0;
