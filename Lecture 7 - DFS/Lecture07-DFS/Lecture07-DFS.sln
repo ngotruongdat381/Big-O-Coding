@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lecture07-DFS", "Lecture07-DFS\Lecture07-DFS.vcxproj", "{372976BF-820E-42D8-A2FE-6D31D70F9142}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bishu", "Bishu\Bishu.vcxproj", "{CFC9C627-F5A1-44BB-8A33-5B3D5E97136D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{372976BF-820E-42D8-A2FE-6D31D70F9142}.Debug|Win32.ActiveCfg = Debug|Win32
-		{372976BF-820E-42D8-A2FE-6D31D70F9142}.Debug|Win32.Build.0 = Debug|Win32
-		{372976BF-820E-42D8-A2FE-6D31D70F9142}.Release|Win32.ActiveCfg = Release|Win32
-		{372976BF-820E-42D8-A2FE-6D31D70F9142}.Release|Win32.Build.0 = Release|Win32
+		{CFC9C627-F5A1-44BB-8A33-5B3D5E97136D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CFC9C627-F5A1-44BB-8A33-5B3D5E97136D}.Debug|Win32.Build.0 = Debug|Win32
+		{CFC9C627-F5A1-44BB-8A33-5B3D5E97136D}.Release|Win32.ActiveCfg = Release|Win32
+		{CFC9C627-F5A1-44BB-8A33-5B3D5E97136D}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
