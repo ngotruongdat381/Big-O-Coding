@@ -1,161 +1,73 @@
-#include <iostream>
-#include <algorithm>
+#include<iostream> 
+#include <list> 
+#include <stack> 
 #include <vector>
-#include <iomanip>
-#include <queue>
-
 using namespace std;
-
-
-#define MAX 1001
-int V, E;
+#define MAX 1005
+int V;
 bool visited[MAX];
 int path[MAX];
 vector<int> graph[MAX];
+int dist[MAX];
 
-char c[25][25];
-int m, n;
 
-void clear(int v)
+void DFS(int src)
 {
-	for (int i = 1; i <= v; i++)
-	{
-		visited[i] = false;
-		path[i] = -1;
-		graph[i].clear();
-	}
-
-
-}
-void BFS(int s)
-{
-	for (int i = 1; i <= V; i++)
+	for (int i = 0; i < V; i++)
 	{
 		visited[i] = false;
 		path[i] = -1;
 	}
-
-	queue<int> q;
-	visited[s] = true;
-	q.push(s);
-
-	while (!q.empty())
+	stack<int> s;
+	visited[src] = true;
+	dist[src] = 0;
+	s.push(src);
+	while (!s.empty())
 	{
-		int u = q.front();
-		q.pop();
+		int u = s.top();
+		s.pop();
 		for (int i = 0; i < graph[u].size(); i++)
 		{
 			int v = graph[u][i];
+
 			if (!visited[v])
 			{
 				visited[v] = true;
-				q.push(v);
+				s.push(v);
+				dist[v] = dist[u] + 1;
 				path[v] = u;
 			}
 		}
 	}
 }
-
-int steps(int s, int f)
-{
-	if (s == f)
-		return 0;
-	else
-	{
-		if (path[f] == -1)
-			return -1;
-		else
-		{
-			int step = steps(s, path[f]);
-			if (step == -1)
-				return -1;
-			else
-				return 1 + step;
-		}
-	}
-}
-
-bool checkEntryAndExit(int xs, int ys, int xf, int yf)
-{
-	int count = 0;
-	for (int i = 0; i < n; i++)
-	{
-		if (c[i][0] == '.')
-		{
-			xs = i;
-			ys = 0;
-			count++;
-		}
-
-		if (c[i][m - 1] == '.')
-		{
-			xs = i;
-			ys = m - 1;
-			count++;
-		}
-	}
-
-	for (int i = 0; i < m; i++)
-	{
-		if (c[0][i] == '.')
-		{
-			xs = 0;
-			ys = i;
-			count++;
-		}
-
-		if (c[n - 1][i] == '.')
-		{
-			xs = n - 1;
-			ys = i;
-			count++;
-		}
-	}
-
-	if (count = 2)
-		return true;
-	return false;
-}
-
-bool findTheWay(int xs, int ys, int xf, int yf)
-{
-	if (xs == xf && ys == yf)
-		return true;
-	bool a = findTheWay(min(xs + 1, n), ys, xf, yf);
-	bool b = findTheWay(max(xs - 1, 0), ys, xf, yf);
-	bool c = findTheWay(xs, min(ys + 1, m), xf, yf);
-	bool d = findTheWay(xs, min(ys - 1, 0), xf, yf);
-
-	return a || b || c || d;
-}
-
 int main()
 {
-	freopen("INPUT.INP", "rt", stdin);
-
-	int t;
-	cin >> t;
-	for (int it = 0; it < t; it++)
+	//freopen("INPUT.INP", "rt", stdin); 
+	int E, u, v;
+	cin >> V;
+	E = V - 1;
+	for (int i = 0; i<E; i++)
 	{
-		cin >> n >> m;
-		for (int i = 0; i < n; i++)
-		{
-			for (int j = 0; j < m; j++)
-			{
-				cin >> c[i][j];
-
-			}
-		}
-
-		int xs, ys, xf, yf;
-
-		if (!checkEntryAndExit(xs, ys, xf, yf))
-		{
-			cout << "invalid" << endl;
-			continue;
-		}
-
-
+		cin >> u >> v;
+		graph[u].push_back(v);
+		graph[v].push_back(u);
 	}
+
+	DFS(1);
+	int Q;
+	cin >> Q;
+	int mini = MAX; int index;
+
+	while (Q--) {
+		int u;
+		cin >> u;
+
+		if (mini > dist[u]) {
+			mini = dist[u];
+			index = u;
+		}
+	}
+
+	cout << index;
 	return 0;
 }
