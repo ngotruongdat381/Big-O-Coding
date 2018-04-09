@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{8DE8CDF6-E6D6-4805-A256-28B2E30ECD62}</ProjectGuid>
+    <ProjectGuid>{FECB6484-A242-406B-A11E-36EEC10B16E7}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Bombs</RootNamespace>
+    <RootNamespace>Wormholes</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -76,7 +76,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Bombs.cpp" />
+    <ClCompile Include="Wormholes.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

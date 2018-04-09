@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Bombs.cpp">
+    <ClCompile Include="ExtendedTraffic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

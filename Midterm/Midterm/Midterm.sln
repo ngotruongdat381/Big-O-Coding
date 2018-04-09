@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bananas", "Bananas\Bananas.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Median", "Median\Median.vcxproj", "{CB273805-99B7-4451-905B-A7D2B63187FD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bombs", "Bombs\Bombs.vcxproj", "{8DE8CDF6-E6D6-4805-A256-28B2E30ECD62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -33,6 +35,10 @@ Global
 		{CB273805-99B7-4451-905B-A7D2B63187FD}.Debug|Win32.Build.0 = Debug|Win32
 		{CB273805-99B7-4451-905B-A7D2B63187FD}.Release|Win32.ActiveCfg = Release|Win32
 		{CB273805-99B7-4451-905B-A7D2B63187FD}.Release|Win32.Build.0 = Release|Win32
+		{8DE8CDF6-E6D6-4805-A256-28B2E30ECD62}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8DE8CDF6-E6D6-4805-A256-28B2E30ECD62}.Debug|Win32.Build.0 = Debug|Win32
+		{8DE8CDF6-E6D6-4805-A256-28B2E30ECD62}.Release|Win32.ActiveCfg = Release|Win32
+		{8DE8CDF6-E6D6-4805-A256-28B2E30ECD62}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
