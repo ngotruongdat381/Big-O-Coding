@@ -77,12 +77,33 @@ void clear()
 int main()
 {
 	freopen("INPUT.INP", "rt", stdin);
-	int T;
-	cin >> T;
 
-	for (int iT = 1; iT <= T; iT++)
+	while (true)
 	{
-		cout << "Case " <<  iT << ":" << endl;
+		int n;
+		cin >> n;
+
+		if (n == -1)
+		{
+			return 0;
+		}
+
+		for (int in = 1; in <= n; in++)
+		{
+			int w, nDoors;
+			cin >> w >> nDoors;
+
+			for (int idoor = 0; idoor < nDoors; idoor++)
+			{
+				triad tmp;
+				tmp.s = in;
+				tmp.w = w;
+				cin >> tmp.t;
+
+			}
+		}
+		
+		cout << "Case " << iT << ":" << endl;
 		cin >> n;
 		clear();
 
