@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{DAAB137E-73BD-4478-9B35-6FC0E425F1FB}</ProjectGuid>
+    <ProjectGuid>{8F760504-AA46-4215-8490-B28A18E27E96}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>XYZZY</RootNamespace>
+    <RootNamespace>PossibleFriends</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -76,7 +76,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="XYZZY.cpp" />
+    <ClCompile Include="PossibleFriends.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

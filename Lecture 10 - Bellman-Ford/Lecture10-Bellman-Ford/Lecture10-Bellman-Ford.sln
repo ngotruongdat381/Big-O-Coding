@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Wormholes", "Wormholes\Worm
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExtendedTraffic", "ExtendedTraffic\ExtendedTraffic.vcxproj", "{DD408381-A58B-42B5-BC7E-0B3E25BE8804}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XYZZY", "XYZZY\XYZZY.vcxproj", "{DAAB137E-73BD-4478-9B35-6FC0E425F1FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -21,6 +23,10 @@ Global
 		{DD408381-A58B-42B5-BC7E-0B3E25BE8804}.Debug|Win32.Build.0 = Debug|Win32
 		{DD408381-A58B-42B5-BC7E-0B3E25BE8804}.Release|Win32.ActiveCfg = Release|Win32
 		{DD408381-A58B-42B5-BC7E-0B3E25BE8804}.Release|Win32.Build.0 = Release|Win32
+		{DAAB137E-73BD-4478-9B35-6FC0E425F1FB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DAAB137E-73BD-4478-9B35-6FC0E425F1FB}.Debug|Win32.Build.0 = Debug|Win32
+		{DAAB137E-73BD-4478-9B35-6FC0E425F1FB}.Release|Win32.ActiveCfg = Release|Win32
+		{DAAB137E-73BD-4478-9B35-6FC0E425F1FB}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
