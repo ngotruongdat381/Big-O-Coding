@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pizzamania", "Pizzamania\Pi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HACKRNDM", "HACKRNDM\HACKRNDM.vcxproj", "{27D07C07-75D9-4DC6-9381-91F62057CB78}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Eko", "Eko\Eko.vcxproj", "{86E0C330-310E-4785-807F-01BDC33DCE63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -33,6 +35,10 @@ Global
 		{27D07C07-75D9-4DC6-9381-91F62057CB78}.Debug|Win32.Build.0 = Debug|Win32
 		{27D07C07-75D9-4DC6-9381-91F62057CB78}.Release|Win32.ActiveCfg = Release|Win32
 		{27D07C07-75D9-4DC6-9381-91F62057CB78}.Release|Win32.Build.0 = Release|Win32
+		{86E0C330-310E-4785-807F-01BDC33DCE63}.Debug|Win32.ActiveCfg = Debug|Win32
+		{86E0C330-310E-4785-807F-01BDC33DCE63}.Debug|Win32.Build.0 = Debug|Win32
+		{86E0C330-310E-4785-807F-01BDC33DCE63}.Release|Win32.ActiveCfg = Release|Win32
+		{86E0C330-310E-4785-807F-01BDC33DCE63}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
