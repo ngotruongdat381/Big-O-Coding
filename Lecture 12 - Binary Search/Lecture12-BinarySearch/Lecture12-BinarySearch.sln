@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lecture12-BinarySearch", "Lecture12-BinarySearch\Lecture12-BinarySearch.vcxproj", "{C24441A2-F2CF-41D8-A97D-5522E6CBBEF0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WhereIsTheMarble", "WhereIsTheMarble\WhereIsTheMarble.vcxproj", "{FDA7D5BB-4484-4245-A9E7-0A1E6C8698B8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pizzamania", "Pizzamania\Pizzamania.vcxproj", "{322D223E-71AC-43B0-8929-154FA9027D19}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HACKRNDM", "HACKRNDM\HACKRNDM.vcxproj", "{27D07C07-75D9-4DC6-9381-91F62057CB78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C24441A2-F2CF-41D8-A97D-5522E6CBBEF0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C24441A2-F2CF-41D8-A97D-5522E6CBBEF0}.Debug|Win32.Build.0 = Debug|Win32
+		{C24441A2-F2CF-41D8-A97D-5522E6CBBEF0}.Release|Win32.ActiveCfg = Release|Win32
+		{C24441A2-F2CF-41D8-A97D-5522E6CBBEF0}.Release|Win32.Build.0 = Release|Win32
+		{FDA7D5BB-4484-4245-A9E7-0A1E6C8698B8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FDA7D5BB-4484-4245-A9E7-0A1E6C8698B8}.Debug|Win32.Build.0 = Debug|Win32
+		{FDA7D5BB-4484-4245-A9E7-0A1E6C8698B8}.Release|Win32.ActiveCfg = Release|Win32
+		{FDA7D5BB-4484-4245-A9E7-0A1E6C8698B8}.Release|Win32.Build.0 = Release|Win32
+		{322D223E-71AC-43B0-8929-154FA9027D19}.Debug|Win32.ActiveCfg = Debug|Win32
+		{322D223E-71AC-43B0-8929-154FA9027D19}.Debug|Win32.Build.0 = Debug|Win32
+		{322D223E-71AC-43B0-8929-154FA9027D19}.Release|Win32.ActiveCfg = Release|Win32
+		{322D223E-71AC-43B0-8929-154FA9027D19}.Release|Win32.Build.0 = Release|Win32
+		{27D07C07-75D9-4DC6-9381-91F62057CB78}.Debug|Win32.ActiveCfg = Debug|Win32
+		{27D07C07-75D9-4DC6-9381-91F62057CB78}.Debug|Win32.Build.0 = Debug|Win32
+		{27D07C07-75D9-4DC6-9381-91F62057CB78}.Release|Win32.ActiveCfg = Release|Win32
+		{27D07C07-75D9-4DC6-9381-91F62057CB78}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

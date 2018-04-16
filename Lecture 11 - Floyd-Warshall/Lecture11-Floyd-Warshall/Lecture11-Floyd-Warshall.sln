@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lecture11-Floyd-Warshall", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PossibleFriends", "PossibleFriends\PossibleFriends.vcxproj", "{8F760504-AA46-4215-8490-B28A18E27E96}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ThunderMountain", "ThunderMountain\ThunderMountain.vcxproj", "{4C4E9882-8125-4953-85E2-0FAD44F2AD82}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MeetingProfMiguel", "MeetingProfMiguel\MeetingProfMiguel.vcxproj", "{5893AF6C-E0A2-4F82-B574-E0AC3701F406}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -21,6 +25,14 @@ Global
 		{8F760504-AA46-4215-8490-B28A18E27E96}.Debug|Win32.Build.0 = Debug|Win32
 		{8F760504-AA46-4215-8490-B28A18E27E96}.Release|Win32.ActiveCfg = Release|Win32
 		{8F760504-AA46-4215-8490-B28A18E27E96}.Release|Win32.Build.0 = Release|Win32
+		{4C4E9882-8125-4953-85E2-0FAD44F2AD82}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4C4E9882-8125-4953-85E2-0FAD44F2AD82}.Debug|Win32.Build.0 = Debug|Win32
+		{4C4E9882-8125-4953-85E2-0FAD44F2AD82}.Release|Win32.ActiveCfg = Release|Win32
+		{4C4E9882-8125-4953-85E2-0FAD44F2AD82}.Release|Win32.Build.0 = Release|Win32
+		{5893AF6C-E0A2-4F82-B574-E0AC3701F406}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5893AF6C-E0A2-4F82-B574-E0AC3701F406}.Debug|Win32.Build.0 = Debug|Win32
+		{5893AF6C-E0A2-4F82-B574-E0AC3701F406}.Release|Win32.ActiveCfg = Release|Win32
+		{5893AF6C-E0A2-4F82-B574-E0AC3701F406}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
