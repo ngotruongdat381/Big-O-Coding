@@ -13,10 +13,6 @@ vector<int> v;
 int main()
 {
 	freopen("INPUT.INP", "rt", stdin);
-	
-
-
-
 	int N;
 	cin >> N;
 
@@ -49,7 +45,6 @@ int main()
 			cout << *(lb - 1) << " ";
 		}
 
-
 		ub = upper_bound(v.begin(), v.end(), q);
 
 		if (ub == v.end())
@@ -63,7 +58,6 @@ int main()
 
 		cout << endl;
 	}
-
 	
 	return 0;
 }
