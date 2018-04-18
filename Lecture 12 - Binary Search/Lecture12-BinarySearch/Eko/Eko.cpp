@@ -10,7 +10,7 @@ using namespace std;
 #define MAX 1000005
 
 int a[MAX];
-int dif[MAX];
+long long dif[MAX];
 
 int main()
 {
@@ -37,9 +37,9 @@ int main()
 
 	dif[N - 1] = dif[N - 2] + a[0] * N;
 
-	vector<int> v(dif, dif + N);
+	vector<long long> v(dif, dif + N);
 
-	vector<int>::iterator lb;
+	vector<long long>::iterator lb;
 	lb = lower_bound(v.begin(), v.end(), M);
 	if (lb == v.end())
 		cout << "0";
