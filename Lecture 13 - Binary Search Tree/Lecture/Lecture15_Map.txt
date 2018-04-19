@@ -1,0 +1,4 @@
+C++: http://www.cprogramming.com/tutorial/stl/stlmap.html
+Python: 
+Java: https://www.javatpoint.com/java-treemap
+Python: https://www.tutorialspoint.com/python/python_dictionary.htm
