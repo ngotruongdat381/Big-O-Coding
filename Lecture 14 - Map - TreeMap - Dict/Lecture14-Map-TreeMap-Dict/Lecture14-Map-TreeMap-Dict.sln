@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lecture14-Map-TreeMap-Dict", "Lecture14-Map-TreeMap-Dict\Lecture14-Map-TreeMap-Dict.vcxproj", "{BDBAB4A8-13DB-4944-B093-B59481EBCE63}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Penguins", "Penguins\Penguins.vcxproj", "{082B7F0B-7B86-4AA4-AB18-1240CFC9D242}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IsenbaevNumber", "IsenbaevNumber\IsenbaevNumber.vcxproj", "{DD2A9B45-3081-4983-BAF8-8037E3953EBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDBAB4A8-13DB-4944-B093-B59481EBCE63}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BDBAB4A8-13DB-4944-B093-B59481EBCE63}.Debug|Win32.Build.0 = Debug|Win32
+		{BDBAB4A8-13DB-4944-B093-B59481EBCE63}.Release|Win32.ActiveCfg = Release|Win32
+		{BDBAB4A8-13DB-4944-B093-B59481EBCE63}.Release|Win32.Build.0 = Release|Win32
+		{082B7F0B-7B86-4AA4-AB18-1240CFC9D242}.Debug|Win32.ActiveCfg = Debug|Win32
+		{082B7F0B-7B86-4AA4-AB18-1240CFC9D242}.Debug|Win32.Build.0 = Debug|Win32
+		{082B7F0B-7B86-4AA4-AB18-1240CFC9D242}.Release|Win32.ActiveCfg = Release|Win32
+		{082B7F0B-7B86-4AA4-AB18-1240CFC9D242}.Release|Win32.Build.0 = Release|Win32
+		{DD2A9B45-3081-4983-BAF8-8037E3953EBF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DD2A9B45-3081-4983-BAF8-8037E3953EBF}.Debug|Win32.Build.0 = Debug|Win32
+		{DD2A9B45-3081-4983-BAF8-8037E3953EBF}.Release|Win32.ActiveCfg = Release|Win32
+		{DD2A9B45-3081-4983-BAF8-8037E3953EBF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
