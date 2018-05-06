@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3BC6EE62-1C21-438F-819B-752B36A7AD02}</ProjectGuid>
+    <ProjectGuid>{34B7D5CC-6EA0-4489-A6AC-8A22716E75B8}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>VirtualFriends</RootNamespace>
+    <RootNamespace>GraphConnectivity</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -76,7 +76,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="VirtualFriends.cpp" />
+    <ClCompile Include="GraphConnectivity.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

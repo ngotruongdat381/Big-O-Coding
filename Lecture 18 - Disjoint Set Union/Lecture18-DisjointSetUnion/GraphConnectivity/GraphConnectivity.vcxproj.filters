@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="VirtualFriends.cpp">
+    <ClCompile Include="GraphConnectivity.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

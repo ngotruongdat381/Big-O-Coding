@@ -9,6 +9,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetworkConnections", "Netwo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Friends", "Friends\Friends.vcxproj", "{A8B11805-33B7-4B94-912F-7737AC800C05}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VirtualFriends", "VirtualFriends\VirtualFriends.vcxproj", "{3BC6EE62-1C21-438F-819B-752B36A7AD02}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GraphConnectivity", "GraphConnectivity\GraphConnectivity.vcxproj", "{34B7D5CC-6EA0-4489-A6AC-8A22716E75B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -27,6 +31,14 @@ Global
 		{A8B11805-33B7-4B94-912F-7737AC800C05}.Debug|Win32.Build.0 = Debug|Win32
 		{A8B11805-33B7-4B94-912F-7737AC800C05}.Release|Win32.ActiveCfg = Release|Win32
 		{A8B11805-33B7-4B94-912F-7737AC800C05}.Release|Win32.Build.0 = Release|Win32
+		{3BC6EE62-1C21-438F-819B-752B36A7AD02}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3BC6EE62-1C21-438F-819B-752B36A7AD02}.Debug|Win32.Build.0 = Debug|Win32
+		{3BC6EE62-1C21-438F-819B-752B36A7AD02}.Release|Win32.ActiveCfg = Release|Win32
+		{3BC6EE62-1C21-438F-819B-752B36A7AD02}.Release|Win32.Build.0 = Release|Win32
+		{34B7D5CC-6EA0-4489-A6AC-8A22716E75B8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{34B7D5CC-6EA0-4489-A6AC-8A22716E75B8}.Debug|Win32.Build.0 = Debug|Win32
+		{34B7D5CC-6EA0-4489-A6AC-8A22716E75B8}.Release|Win32.ActiveCfg = Release|Win32
+		{34B7D5CC-6EA0-4489-A6AC-8A22716E75B8}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
