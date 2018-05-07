@@ -1,22 +1,8 @@
 #include <string>
 #include <iostream>
-#include <algorithm>
 using namespace std;
 
-#define MAX 4
-string DNA = "ACGT";
-
-int getIdx(char x)
-{
-	if (x == 'A')
-		return 0;
-	if (x == 'C')
-		return 1;
-	if (x == 'G')
-		return 2;
-	if (x == 'T')
-		return 3;
-}
+#define MAX 26
 
 struct node {
 	node *child[MAX];
@@ -39,16 +25,16 @@ node *newNode()
 
 void addWord(node *root, string s)
 {
-	int idx;
+	int ch;
 	node *temp = root;
 	for (int i = 0; i < s.size(); i++)
 	{
-		idx = getIdx(s[i]);
-		if (temp->child[idx] == NULL)
+		ch = s[i] - 'a';
+		if (temp->child[ch] == NULL)
 		{
-			temp->child[idx] = newNode();
+			temp->child[ch] = newNode();
 		}
-		temp = temp->child[idx];
+		temp = temp->child[ch];
 		temp->cnt++;
 	}
 	temp->countLeaf++;
@@ -60,7 +46,7 @@ int findWord(node *root, string s)
 	node *temp = root;
 	for (int i = 0; i < s.size(); i++)
 	{
-		ch = s[i] - 'A';
+		ch = s[i] - 'a';
 		if (temp->child[ch] == NULL)
 		{
 			return 0;
@@ -69,22 +55,6 @@ int findWord(node *root, string s)
 	}
 	return temp->cnt;
 
-}
-
-int findMax(node *root, int lvl)
-{
-	node *temp = root;
-	int res = lvl*temp->cnt;
-
-	for (int i = 0; i < 4; i++)
-	{
-		if (temp->child[i] != NULL)
-		{
-			res = max(res, findMax(temp->child[i], lvl + 1));
-		}
-		
-	}
-	return res;
 }
 
 bool isWord(node *pNode)
@@ -109,7 +79,7 @@ bool removeWord(node *root, string s, int level, int len)
 	if (!root)
 		return false;
 
-	int ch = s[level] - 'A';
+	int ch = s[level] - 'a';
 	if (level == len)
 	{
 		if (root->countLeaf > 0)
@@ -129,41 +99,28 @@ bool removeWord(node *root, string s, int level, int len)
 	return flag;
 }
 
-void deletenode(node *pNode)
-{
-	for (int i = 0; i<MAX; i++)
-	{
-		if (pNode->child[i])
-		{
-			deletenode(pNode->child[i]);
-			delete pNode->child[i];
-		}
-	}
-}
 
 int main()
 {
 	freopen("INPUT.INP", "rt", stdin);
-	int T, n, count = 1;
-	string str;
+	int n;
+	string operation, str;
 
-	cin >> T;
+	node *root = newNode();
 
-	for (int t = 0; t < T; t++)
+	cin >> n;
+	for (int i = 0; i < n; i++)
 	{
-		cout << "Case " << count++ << ": ";
-		node *root = newNode();
+		cin >> operation >> str;
 
-		cin >> n;
-		for (int i = 0; i < n; i++)
+		if (operation == "add")
 		{
-			cin >> str;
 			addWord(root, str);
 		}
-
-		int max = findMax(root, 0);
-		cout << max << endl;
-		deletenode(root);
+		else if (operation == "find")
+		{
+			cout << findWord(root, str) << endl;
+		}
 	}
 
 	return 0;

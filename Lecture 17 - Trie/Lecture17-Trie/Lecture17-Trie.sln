@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lecture17-Trie", "Lecture17-Trie\Lecture17-Trie.vcxproj", "{EBB483A0-6ADA-46B3-9256-D64E4DF4F7C7}"
 EndProject
@@ -9,24 +9,52 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SearchEngine", "SearchEngin
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DNAPrefix", "DNAPrefix\DNAPrefix.vcxproj", "{465D07EA-A4AE-4042-A6DC-9E4304F7F31D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsistencyChecker", "ConsistencyChecker\ConsistencyChecker.vcxproj", "{CE379EBD-05AE-4B11-A09B-57302F2157A0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Contacts", "Contacts\Contacts.vcxproj", "{8C324ABA-C7E0-45C6-81AD-1CDE63A55334}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
 		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EBB483A0-6ADA-46B3-9256-D64E4DF4F7C7}.Debug|Win32.ActiveCfg = Debug|Win32
 		{EBB483A0-6ADA-46B3-9256-D64E4DF4F7C7}.Debug|Win32.Build.0 = Debug|Win32
+		{EBB483A0-6ADA-46B3-9256-D64E4DF4F7C7}.Debug|x64.ActiveCfg = Debug|Win32
 		{EBB483A0-6ADA-46B3-9256-D64E4DF4F7C7}.Release|Win32.ActiveCfg = Release|Win32
 		{EBB483A0-6ADA-46B3-9256-D64E4DF4F7C7}.Release|Win32.Build.0 = Release|Win32
+		{EBB483A0-6ADA-46B3-9256-D64E4DF4F7C7}.Release|x64.ActiveCfg = Release|Win32
 		{4BC88855-E6DB-4CC0-8F56-7798747BAB1E}.Debug|Win32.ActiveCfg = Debug|Win32
 		{4BC88855-E6DB-4CC0-8F56-7798747BAB1E}.Debug|Win32.Build.0 = Debug|Win32
+		{4BC88855-E6DB-4CC0-8F56-7798747BAB1E}.Debug|x64.ActiveCfg = Debug|Win32
 		{4BC88855-E6DB-4CC0-8F56-7798747BAB1E}.Release|Win32.ActiveCfg = Release|Win32
 		{4BC88855-E6DB-4CC0-8F56-7798747BAB1E}.Release|Win32.Build.0 = Release|Win32
+		{4BC88855-E6DB-4CC0-8F56-7798747BAB1E}.Release|x64.ActiveCfg = Release|Win32
 		{465D07EA-A4AE-4042-A6DC-9E4304F7F31D}.Debug|Win32.ActiveCfg = Debug|Win32
 		{465D07EA-A4AE-4042-A6DC-9E4304F7F31D}.Debug|Win32.Build.0 = Debug|Win32
+		{465D07EA-A4AE-4042-A6DC-9E4304F7F31D}.Debug|x64.ActiveCfg = Debug|Win32
 		{465D07EA-A4AE-4042-A6DC-9E4304F7F31D}.Release|Win32.ActiveCfg = Release|Win32
 		{465D07EA-A4AE-4042-A6DC-9E4304F7F31D}.Release|Win32.Build.0 = Release|Win32
+		{465D07EA-A4AE-4042-A6DC-9E4304F7F31D}.Release|x64.ActiveCfg = Release|Win32
+		{CE379EBD-05AE-4B11-A09B-57302F2157A0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CE379EBD-05AE-4B11-A09B-57302F2157A0}.Debug|Win32.Build.0 = Debug|Win32
+		{CE379EBD-05AE-4B11-A09B-57302F2157A0}.Debug|x64.ActiveCfg = Debug|x64
+		{CE379EBD-05AE-4B11-A09B-57302F2157A0}.Debug|x64.Build.0 = Debug|x64
+		{CE379EBD-05AE-4B11-A09B-57302F2157A0}.Release|Win32.ActiveCfg = Release|Win32
+		{CE379EBD-05AE-4B11-A09B-57302F2157A0}.Release|Win32.Build.0 = Release|Win32
+		{CE379EBD-05AE-4B11-A09B-57302F2157A0}.Release|x64.ActiveCfg = Release|x64
+		{CE379EBD-05AE-4B11-A09B-57302F2157A0}.Release|x64.Build.0 = Release|x64
+		{8C324ABA-C7E0-45C6-81AD-1CDE63A55334}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8C324ABA-C7E0-45C6-81AD-1CDE63A55334}.Debug|Win32.Build.0 = Debug|Win32
+		{8C324ABA-C7E0-45C6-81AD-1CDE63A55334}.Debug|x64.ActiveCfg = Debug|x64
+		{8C324ABA-C7E0-45C6-81AD-1CDE63A55334}.Debug|x64.Build.0 = Debug|x64
+		{8C324ABA-C7E0-45C6-81AD-1CDE63A55334}.Release|Win32.ActiveCfg = Release|Win32
+		{8C324ABA-C7E0-45C6-81AD-1CDE63A55334}.Release|Win32.Build.0 = Release|Win32
+		{8C324ABA-C7E0-45C6-81AD-1CDE63A55334}.Release|x64.ActiveCfg = Release|x64
+		{8C324ABA-C7E0-45C6-81AD-1CDE63A55334}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
