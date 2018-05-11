@@ -16,7 +16,7 @@ public:
 	vector<int> subordinates;
 };
 
-int getImportance(Employee* ems[], int id) {
+int get(Employee* ems[], int id) {
 
 	int sum = ems[id]->importance;
 
@@ -26,7 +26,7 @@ int getImportance(Employee* ems[], int id) {
 
 	for (int i = 0; i < subs.size(); i++)
 	{
-		sum += getImportance(ems, subs[i]);
+		sum += get(ems, subs[i]);
 	}
 	return sum;
 }
@@ -41,31 +41,7 @@ int getImportance(vector<Employee*> employees, int id) {
 
 	}
 
-	int sum = ems[id]->importance;
-	
-	while (true)
-	{
-		vector<int> subs = ems[id]->subordinates;
-		
-		if (subs.size() == 0)
-			return sum;
-
-		for (int i = 0; i < subs.size(); i++)
-		{
-			sum += getImportance(employees, subs[i]);
-		}
-	}
-
-	
-	
-	vector<int> subs = employees[id]->subordinates;
-	if (subs == NULL ||subs.size() == 0)
-		return sum;
-
-	for (int i = 0; i < subs.size(); i++)
-	{
-		sum += getImportance(employees, subs[i]);
-	}
+	int sum = get(ems, id);
 	return sum;
 }
 

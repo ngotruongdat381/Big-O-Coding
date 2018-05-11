@@ -4,7 +4,7 @@
 #include <iomanip>
 #include <queue>
 #include <functional>
-using namespace std; 
+using namespace std;
 
 #define MAX 100
 const int INF = 1e9;
@@ -12,12 +12,12 @@ const int INF = 1e9;
 vector<pair<int, int>> graph[MAX];
 vector<int> dist(MAX, INF);
 int path[MAX];
-bool visited[MAX]; 
+bool visited[MAX];
 int N;
 
 void printMST()
 {
-	int ans = 0; 
+	int ans = 0;
 	for (int i = 0; i < N; i++)
 	{
 		if (path[i] == -1)
@@ -60,7 +60,7 @@ int main()
 	int M, u, v, w;
 	cin >> N >> M;
 	memset(path, -1, sizeof(path));
-	
+
 	for (int i = 0; i < M; i++)
 	{
 		cin >> u >> v >> w;
@@ -72,8 +72,3 @@ int main()
 	printMST();
 	return 0;
 }
-
-
-
-
-

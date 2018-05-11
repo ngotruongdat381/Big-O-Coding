@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6208AA3B-3904-4D0A-AF02-B04847C31EBB}</ProjectGuid>
+    <ProjectGuid>{727F6CBC-C0F9-41AB-B7D6-84BDE84582B7}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>EmployeeImportance</RootNamespace>
+    <RootNamespace>CobbledStreets</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -76,7 +76,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="EmployeeImportance.cpp" />
+    <ClCompile Include="CobbledStreets.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
