@@ -1,15 +1,16 @@
-#include <iostream>
 #include <algorithm>
+#include <iostream>
+#include <string>
 #include <vector>
-#include <iomanip>
 #include <queue>
 #include <functional>
+#include <string.h>
 using namespace std;
 
-#define MAX 100
+#define MAX 1005
 const int INF = 1e9;
 
-vector<pair<int, int>> graph[MAX];
+vector<pair<int, int> > graph[MAX];
 vector<int> dist(MAX, INF);
 int path[MAX];
 bool visited[MAX];
@@ -17,16 +18,29 @@ int N;
 
 void printMST()
 {
-	int ans = 0;
+	long long ans = 0;
 	for (int i = 0; i < N; i++)
 	{
 		if (path[i] == -1)
 			continue;
 		ans += dist[i];
-		cout << path[i] << " - " << i << ": " << dist[i] << endl;
+		//cout << path[i] << " - " << i << ": " << dist[i] << endl;
 	}
-	cout << "Weight of MST: " << ans << endl;
+	cout << ans << endl;
 }
+
+int getMST()
+{
+	long long ans = 0;
+	for (int i = 0; i < N; i++)
+	{
+		if (path[i] == -1)
+			continue;
+		ans += dist[i];
+	}
+	return ans;
+}
+
 
 void Prim(int src)
 {
@@ -44,10 +58,10 @@ void Prim(int src)
 		{
 			int v = graph[u][i].first;
 			int w = graph[u][i].second;
-			if (!visited[u] && dist[u] > w)
+			if (!visited[v] && dist[v] > w)
 			{
 				dist[v] = w;
-				visited[v] = true;
+				pq.push(make_pair(w, v));
 				path[v] = u;
 			}
 		}
@@ -57,18 +71,31 @@ void Prim(int src)
 
 int main()
 {
-	int M, u, v, w;
-	cin >> N >> M;
-	memset(path, -1, sizeof(path));
-
-	for (int i = 0; i < M; i++)
+	freopen("INPUT.INP", "rt", stdin);
+	int t, p, M, u, v, w;
+	cin >> t;
+	while (t--)
 	{
-		cin >> u >> v >> w;
-		graph[u].push_back(make_pair(v, w));
-		graph[v].push_back(make_pair(u, w));
+		cin >> p >> N >> M;
+
+		memset(path, -1, sizeof(path));
+		for (int i = 0; i < N; i++) {
+			graph[i].clear();
+			visited[i] = false;
+			dist[i] = INF;
+		}
+
+		for (int i = 0; i < M; i++)
+		{
+			cin >> u >> v >> w;
+			graph[u - 1].push_back(make_pair(v - 1, w));
+			graph[v - 1].push_back(make_pair(u - 1, w));
+		}
+
+		int s = 0;
+		Prim(s);
+		cout << getMST() * p << endl;
 	}
-	int s = 0;
-	Prim(s);
-	printMST();
+
 	return 0;
 }

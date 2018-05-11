@@ -75,5 +75,3 @@ int main()
 	printMST();
 	return 0;
 }
-
-
