@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Final", "Final\Final.vcxproj", "{49916185-164F-41AC-A5C9-DC2C3679296A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MUHAndImportantThings", "MUHAndImportantThings\MUHAndImportantThings.vcxproj", "{C47FA29B-607A-4102-A318-CAA1610307DF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PhoneList", "PhoneList\PhoneList.vcxproj", "{D0068EB5-BBF7-41CD-B714-CA5700505C32}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UbiquitousReligions", "UbiquitousReligions\UbiquitousReligions.vcxproj", "{640325CB-B46F-4D99-B1AB-3BFDC2273CB9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Freckles", "Freckles\Freckles.vcxproj", "{E0D1A91F-385D-4F7B-9FE3-ACE1B4FF380A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fibsieve", "Fibsieve\Fibsieve.vcxproj", "{F6215FCC-4A05-4642-962B-B30C23B3E53F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49916185-164F-41AC-A5C9-DC2C3679296A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{49916185-164F-41AC-A5C9-DC2C3679296A}.Debug|Win32.Build.0 = Debug|Win32
+		{49916185-164F-41AC-A5C9-DC2C3679296A}.Release|Win32.ActiveCfg = Release|Win32
+		{49916185-164F-41AC-A5C9-DC2C3679296A}.Release|Win32.Build.0 = Release|Win32
+		{C47FA29B-607A-4102-A318-CAA1610307DF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C47FA29B-607A-4102-A318-CAA1610307DF}.Debug|Win32.Build.0 = Debug|Win32
+		{C47FA29B-607A-4102-A318-CAA1610307DF}.Release|Win32.ActiveCfg = Release|Win32
+		{C47FA29B-607A-4102-A318-CAA1610307DF}.Release|Win32.Build.0 = Release|Win32
+		{D0068EB5-BBF7-41CD-B714-CA5700505C32}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D0068EB5-BBF7-41CD-B714-CA5700505C32}.Debug|Win32.Build.0 = Debug|Win32
+		{D0068EB5-BBF7-41CD-B714-CA5700505C32}.Release|Win32.ActiveCfg = Release|Win32
+		{D0068EB5-BBF7-41CD-B714-CA5700505C32}.Release|Win32.Build.0 = Release|Win32
+		{640325CB-B46F-4D99-B1AB-3BFDC2273CB9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{640325CB-B46F-4D99-B1AB-3BFDC2273CB9}.Debug|Win32.Build.0 = Debug|Win32
+		{640325CB-B46F-4D99-B1AB-3BFDC2273CB9}.Release|Win32.ActiveCfg = Release|Win32
+		{640325CB-B46F-4D99-B1AB-3BFDC2273CB9}.Release|Win32.Build.0 = Release|Win32
+		{E0D1A91F-385D-4F7B-9FE3-ACE1B4FF380A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E0D1A91F-385D-4F7B-9FE3-ACE1B4FF380A}.Debug|Win32.Build.0 = Debug|Win32
+		{E0D1A91F-385D-4F7B-9FE3-ACE1B4FF380A}.Release|Win32.ActiveCfg = Release|Win32
+		{E0D1A91F-385D-4F7B-9FE3-ACE1B4FF380A}.Release|Win32.Build.0 = Release|Win32
+		{F6215FCC-4A05-4642-962B-B30C23B3E53F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F6215FCC-4A05-4642-962B-B30C23B3E53F}.Debug|Win32.Build.0 = Debug|Win32
+		{F6215FCC-4A05-4642-962B-B30C23B3E53F}.Release|Win32.ActiveCfg = Release|Win32
+		{F6215FCC-4A05-4642-962B-B30C23B3E53F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
